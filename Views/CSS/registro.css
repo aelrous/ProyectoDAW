@@ -1,0 +1,28 @@
+*{
+    font-family: Quicksand;
+}
+body {
+    background: url("../img/fondoRegistro.jpg") no-repeat;
+    background-size: cover;    
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}  
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    background: #2E9959;
+    color: #fff;   
+}
+.btn-login:hover{
+    background: #b4fac2;
+}  
+.form-control:focus{
+    border: 3px solid #2E9959;
+    box-shadow: none;
+}
+p{
+    color: #d93025;
+    font-size: 14px;       
+}
